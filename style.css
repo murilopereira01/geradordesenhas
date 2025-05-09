@@ -2,12 +2,12 @@
 
 :root {
     --branco: white;
-    --cor-de-fundo: #00162E;
-    --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
+    --cor-de-fundo: #26002e;
+    --fundo-senha: #d49fff;
+    --fundo-texto: #d49fff;
+    --borda: #000000;
     --roboto: 'Roboto', sans-serif;
-    --roboto-mono: 'Roboto Mono', monospace;
+    --roboto-mono: 'times new roman', monospace;
 }
 
 * {
@@ -107,6 +107,49 @@ body {
     margin: 0;
     font-size: 24px;
 }
+
+label {
+    font-size: 20px;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.barra {
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+
+.forca {
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.fraca {
+    width: 25%;
+    background-color: #E71B32;
+}
+
+.media {
+    background-color: #FAF408;
+    width: 50%;
+}
+
+.forte {
+    background-color: #00FF85;
+    width: 100%;
+}
+
+.parametro-senha-textos {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha {
